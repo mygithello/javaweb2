@@ -1,0 +1,7 @@
+项目来源 javaweb2
+1.通过 wsimport -s . http://localhost:8081/ws/test?wsdl
+解析wsdl，生成java代码，注意此处的生成的包结构，复制到对应的客户端宝结构下
+
+2.在cxf-servlet-client.xml配置服务调用的配置
+
+3.写一个方法，运行方法加载cxf的客户端配置文件（cxf-servlet-client.xml），完成服务的调用
